@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'nail.ui'
+# Form implementation generated from reading ui file 'db.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.10
 #
@@ -94,74 +94,28 @@ class Ui_MainWindow(object):
         self.label_4.setGeometry(QtCore.QRect(120, 695, 71, 31))
         self.label_4.setStyleSheet("font: 13pt \"Mongolian Baiti\";")
         self.label_4.setObjectName("label_4")
-        self.line = QtWidgets.QFrame(self.centralwidget)
-        self.line.setGeometry(QtCore.QRect(270, 100, 731, 16))
-        self.line.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line.setObjectName("line")
-        self.line_2 = QtWidgets.QFrame(self.centralwidget)
-        self.line_2.setGeometry(QtCore.QRect(260, 108, 20, 611))
-        self.line_2.setFrameShape(QtWidgets.QFrame.VLine)
-        self.line_2.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_2.setObjectName("line_2")
-        self.line_4 = QtWidgets.QFrame(self.centralwidget)
-        self.line_4.setGeometry(QtCore.QRect(270, 710, 731, 20))
-        self.line_4.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_4.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_4.setObjectName("line_4")
-        self.line_3 = QtWidgets.QFrame(self.centralwidget)
-        self.line_3.setGeometry(QtCore.QRect(1000, 108, 3, 611))
-        self.line_3.setFrameShape(QtWidgets.QFrame.VLine)
-        self.line_3.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_3.setObjectName("line_3")
-        self.label_5 = QtWidgets.QLabel(self.centralwidget)
-        self.label_5.setGeometry(QtCore.QRect(280, 130, 111, 111))
-        self.label_5.setStyleSheet("background-color: rgb(255, 255, 255);\n"
-"border-radius: 52px;")
-        self.label_5.setText("")
-        self.label_5.setPixmap(QtGui.QPixmap(":/icons/pretty_girls_17(1)-round.png"))
-        self.label_5.setObjectName("label_5")
-        self.line_5 = QtWidgets.QFrame(self.centralwidget)
-        self.line_5.setGeometry(QtCore.QRect(270, 270, 731, 16))
-        self.line_5.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_5.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_5.setObjectName("line_5")
-        self.line_6 = QtWidgets.QFrame(self.centralwidget)
-        self.line_6.setGeometry(QtCore.QRect(270, 430, 731, 16))
-        self.line_6.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_6.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_6.setObjectName("line_6")
-        self.line_7 = QtWidgets.QFrame(self.centralwidget)
-        self.line_7.setGeometry(QtCore.QRect(270, 570, 731, 16))
-        self.line_7.setFrameShape(QtWidgets.QFrame.HLine)
-        self.line_7.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.line_7.setObjectName("line_7")
-        self.label_6 = QtWidgets.QLabel(self.centralwidget)
-        self.label_6.setGeometry(QtCore.QRect(410, 170, 251, 31))
-        self.label_6.setStyleSheet("background-color: rgb(255, 255, 255);\n"
-"font: italic 12pt \"Sitka Display\";\n"
-"border-radius: 4px;")
-        self.label_6.setObjectName("label_6")
-        self.valeria_combo = QtWidgets.QComboBox(self.centralwidget)
-        self.valeria_combo.setGeometry(QtCore.QRect(680, 170, 131, 31))
-        self.valeria_combo.setStyleSheet("background-color: rgb(255, 255, 255);\n"
-"border-radius:4px;\n"
-"font: italic 12pt \"Sitka Display\";")
-        self.valeria_combo.setObjectName("valeria_combo")
-        self.valeria_combo.addItem("")
-        self.valeria_combo.addItem("")
-        self.valeria_combo.addItem("")
-        self.valeria_combo.addItem("")
-        self.valeria_combo.addItem("")
-        self.valeria_combo.addItem("")
-        self.valeria_combo.addItem("")
-        self.zapis_valeria = QtWidgets.QPushButton(self.centralwidget)
-        self.zapis_valeria.setGeometry(QtCore.QRect(840, 170, 111, 31))
-        self.zapis_valeria.setStyleSheet("background-color: rgb(255, 255, 255);\n"
-"border-radius: 4px;\n"
-"font: italic 12pt \"Sitka Display\";\n"
-"")
-        self.zapis_valeria.setObjectName("zapis_valeria")
+        self.tableWidget = QtWidgets.QTableWidget(self.centralwidget)
+        self.tableWidget.setGeometry(QtCore.QRect(280, 280, 701, 451))
+        self.tableWidget.setStyleSheet("background-color: rgb(103, 114, 127);\n"
+"border-radius: 13px;")
+        self.tableWidget.setObjectName("tableWidget")
+        self.tableWidget.setColumnCount(0)
+        self.tableWidget.setRowCount(0)
+        self.del_qwe = QtWidgets.QPushButton(self.centralwidget)
+        self.del_qwe.setGeometry(QtCore.QRect(864, 192, 101, 51))
+        self.del_qwe.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"border-radius: 13px;")
+        self.del_qwe.setObjectName("del_qwe")
+        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+        self.lineEdit.setGeometry(QtCore.QRect(280, 189, 141, 51))
+        self.lineEdit.setStyleSheet("background-color: rgb(103, 114, 127);\n"
+"border-radius: 13px;")
+        self.lineEdit.setObjectName("lineEdit")
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setGeometry(QtCore.QRect(864, 130, 101, 51))
+        self.pushButton_2.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+"border-radius: 13px;")
+        self.pushButton_2.setObjectName("pushButton_2")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -176,13 +130,6 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "SPA"))
         self.label_3.setText(_translate("MainWindow", "NAILS"))
         self.label_4.setText(_translate("MainWindow", "DB"))
-        self.label_6.setText(_translate("MainWindow", "Валерия, стаж работы 4 года, 25 лет"))
-        self.valeria_combo.setItemText(0, _translate("MainWindow", "9:00"))
-        self.valeria_combo.setItemText(1, _translate("MainWindow", "11:00"))
-        self.valeria_combo.setItemText(2, _translate("MainWindow", "13:00"))
-        self.valeria_combo.setItemText(3, _translate("MainWindow", "15:00"))
-        self.valeria_combo.setItemText(4, _translate("MainWindow", "17:00"))
-        self.valeria_combo.setItemText(5, _translate("MainWindow", "19:00"))
-        self.valeria_combo.setItemText(6, _translate("MainWindow", "21:00"))
-        self.zapis_valeria.setText(_translate("MainWindow", "Записаться"))
+        self.del_qwe.setText(_translate("MainWindow", "Удалить"))
+        self.pushButton_2.setText(_translate("MainWindow", "Обновить"))
 import res_rc

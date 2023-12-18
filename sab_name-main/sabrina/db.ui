@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1049</width>
-    <height>798</height>
+    <width>1048</width>
+    <height>801</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -242,202 +242,66 @@ border-radius: 4px;</string>
      </property>
     </widget>
    </widget>
-   <widget class="Line" name="line">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>100</y>
-      <width>731</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_2">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>108</y>
-      <width>20</width>
-      <height>611</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_4">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>710</y>
-      <width>731</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_3">
-    <property name="geometry">
-     <rect>
-      <x>1000</x>
-      <y>108</y>
-      <width>3</width>
-      <height>611</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
       <x>280</x>
+      <y>280</y>
+      <width>701</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(103, 114, 127);
+border-radius: 13px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="del_qwe">
+    <property name="geometry">
+     <rect>
+      <x>864</x>
+      <y>192</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 13px;</string>
+    </property>
+    <property name="text">
+     <string>Удалить</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>189</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(103, 114, 127);
+border-radius: 13px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>864</x>
       <y>130</y>
-      <width>111</width>
-      <height>111</height>
+      <width>101</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 52px;</string>
+border-radius: 13px;</string>
     </property>
     <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="res.qrc">:/icons/girls1(1)-round.png</pixmap>
-    </property>
-   </widget>
-   <widget class="Line" name="line_5">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>270</y>
-      <width>731</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_6">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>430</y>
-      <width>731</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="Line" name="line_7">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>570</y>
-      <width>731</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>170</y>
-      <width>251</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-font: italic 12pt &quot;Sitka Display&quot;;
-border-radius: 4px;</string>
-    </property>
-    <property name="text">
-     <string>Вика, стаж работы 2 года, 37 лет</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="vika_combo">
-    <property name="geometry">
-     <rect>
-      <x>680</x>
-      <y>170</y>
-      <width>131</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-border-radius:4px;
-font: italic 12pt &quot;Sitka Display&quot;;</string>
-    </property>
-    <item>
-     <property name="text">
-      <string>9:00</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>11:00</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>13:00</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>15:00</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>17:00</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>19:00</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>21:00</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QPushButton" name="zapis_vika">
-    <property name="geometry">
-     <rect>
-      <x>840</x>
-      <y>170</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 4px;
-font: italic 12pt &quot;Sitka Display&quot;;
-</string>
-    </property>
-    <property name="text">
-     <string>Записаться</string>
+     <string>Обновить</string>
     </property>
    </widget>
   </widget>
